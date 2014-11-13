@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/CUPJournal.h
