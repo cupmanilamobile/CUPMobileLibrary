@@ -1,7 +1,16 @@
 PODS:
   - CUPMobileLibrary (0.1.1):
-    - CUPMobileLibrary/Misc
-  - CUPMobileLibrary/Misc (0.1.1)
+    - CUPMobileLibrary/Article
+    - CUPMobileLibrary/Issue
+    - CUPMobileLibrary/Journal
+    - CUPMobileLibrary/Volume
+  - CUPMobileLibrary/Article (0.1.1):
+    - CUPMobileLibrary/Issue
+  - CUPMobileLibrary/Issue (0.1.1):
+    - CUPMobileLibrary/Volume
+  - CUPMobileLibrary/Journal (0.1.1)
+  - CUPMobileLibrary/Volume (0.1.1):
+    - CUPMobileLibrary/Journal
 
 DEPENDENCIES:
   - CUPMobileLibrary (from `../`)
@@ -11,6 +20,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CUPMobileLibrary: 78706164014788caf3feb46abd115643ec48a474
+  CUPMobileLibrary: 17fd9155dd563b6d7005e566288ed6d6b2d22288
 
 COCOAPODS: 0.34.4

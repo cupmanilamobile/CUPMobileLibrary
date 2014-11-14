@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/CUPIssue.h
+../../../../../Pod/Classes/Issue/CUPIssue.h

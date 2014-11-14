@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/CUPJournal.h
+../../../../../Pod/Classes/Journal/CUPJournal.h

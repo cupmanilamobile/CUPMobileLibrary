@@ -30,3 +30,28 @@
     return output;
 }
 @end
+
+/*
+ s.subspec 'User' do |ss|
+ ss.source_files = 'Pod/Classes/User/*.{h,m}'
+ end
+ 
+ s.subspec 'Journal' do |ss|
+ ss.source_files = 'Pod/Classes/Journal/CUPJournal.{h,m}'
+ end
+ 
+ s.subspec 'Volume' do |ss|
+ ss.source_files = 'Pod/Classes/Journal/Volume/CUPVolume.{h,m}'
+ end
+ s.subspec 'Issue' do |ss|
+ ss.source_files = 'Pod/Classes/Journal/Issue/CUPIssue.{h,m}'
+ end
+ s.subspec 'Article' do |ss|
+ ss.source_files = 'Pod/Classes/Journal/Article/CUPArticle.{h,m}'
+ end
+ 
+ s.subspec 'Misc' do |ss|
+ ss.source_files = 'Pod/Classes/Misc/*.{h,m}'
+ end
+
+*/
