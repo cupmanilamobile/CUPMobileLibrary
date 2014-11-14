@@ -24,6 +24,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		6C325CFA24FA5B66815ABBB4 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D878438E463E663B8DB25E1 /* libPods-Tests.a */; };
+		FD1FB8331A14C3B300F669C1 /* NSString+MD5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1FB8321A14C3B300F669C1 /* NSString+MD5Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		7F424CAA5F76759B8D2620B1 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BF312FE462B5AAAE3AD48233 /* CUPMobileLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CUPMobileLibrary.podspec; path = ../CUPMobileLibrary.podspec; sourceTree = "<group>"; };
 		F5B2314BF6A2C6C56E0BB7B1 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD1FB8321A14C3B300F669C1 /* NSString+MD5Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Tests.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				FD1FB82C1A14BF0700F669C1 /* Misc */,
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
@@ -193,6 +196,14 @@
 				7F424CAA5F76759B8D2620B1 /* Pods-Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD1FB82C1A14BF0700F669C1 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				FD1FB8321A14C3B300F669C1 /* NSString+MD5Tests.m */,
+			);
+			name = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,6 +382,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD1FB8331A14C3B300F669C1 /* NSString+MD5Tests.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

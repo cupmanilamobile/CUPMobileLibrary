@@ -10,5 +10,11 @@
 #define COCOAPODS_POD_AVAILABLE_CUPMobileLibrary
 #define COCOAPODS_VERSION_MAJOR_CUPMobileLibrary 0
 #define COCOAPODS_VERSION_MINOR_CUPMobileLibrary 1
-#define COCOAPODS_VERSION_PATCH_CUPMobileLibrary 0
+#define COCOAPODS_VERSION_PATCH_CUPMobileLibrary 1
+
+// CUPMobileLibrary/Misc
+#define COCOAPODS_POD_AVAILABLE_CUPMobileLibrary_Misc
+#define COCOAPODS_VERSION_MAJOR_CUPMobileLibrary_Misc 0
+#define COCOAPODS_VERSION_MINOR_CUPMobileLibrary_Misc 1
+#define COCOAPODS_VERSION_PATCH_CUPMobileLibrary_Misc 1
 

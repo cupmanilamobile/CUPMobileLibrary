@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CUPMobileLibrary"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A CUP Mobile Library"
   s.description      = <<-DESC
                        This library includes plain Objective-C objects and other miscellaneous classes.
@@ -24,7 +24,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.1'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes'
+  s.source_files = 'Pod/Classes/*.{h,m}'
+
+  s.subspec 'Misc' do |ss|
+    ss.source_files = 'Pod/Classes/Misc/*.{h,m}'
+  end
   s.resource_bundles = {
     'CUPMobileLibrary' => ['Pod/Assets/*.png']
   }
